@@ -1,5 +1,8 @@
 # kcachegrind vagrant vm
 This is a little helper if you need to access kcachegrind on mac or windows (not tested, but should work out of the box).
+It will create a virtual machine using vagrant. 
+Vagrant will install kcachegrind within this virtual machine, and offer a simple command, "vagrant kcachegrind", 
+which will start kcachegrind within the virtual machine, but open it's user interface within your mac os gui.
 
 In order to use it, you just need to install vagrant & virtualbox, clone this repository and issue the following commands within the checkout:
 
@@ -7,7 +10,7 @@ In order to use it, you just need to install vagrant & virtualbox, clone this re
 vagrant up
 vagrant kcachegrind
 ```
-This will start kcachegrind within the VM and open it using X-tunneling via ssh in your mac environment.
+This will open kcachegrind.
 ![Screenshot of tunneled kcachegrind](screenshot.png "Screenshot of tunneled kcachegrind")
 X11 is required on your mac, obviously.
 
