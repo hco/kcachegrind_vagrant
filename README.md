@@ -8,3 +8,6 @@ vagrant up
 vagrant kcachegrind
 ```
 Put your cachegrind files into the cachegrind_files directory, which is shared with the vm.
+
+## Compatibility
+Has not yet been tested with vagrant 1.1.
