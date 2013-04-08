@@ -8,6 +8,7 @@ vagrant up
 vagrant kcachegrind
 ```
 This will start kcachegrind within the VM and open it using X-tunneling via ssh in your mac environment.
+![Screenshot of tunneled kcachegrind](screenshot.png "Screenshot of tunneled kcachegrind")
 X11 is required on your mac, obviously.
 
 Put your cachegrind files into the cachegrind_files directory, which is shared with the vm.
