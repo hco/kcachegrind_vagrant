@@ -1,0 +1,3 @@
+package {'kcachegrind':
+  ensure => present
+}
