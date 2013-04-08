@@ -3,7 +3,7 @@
 
 require 'kcachegrind'
 Vagrant::Config.run do |config|
-  config.vm.box = "quantal-from-internetz"
+  config.vm.box = "quantal64-roderik"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
