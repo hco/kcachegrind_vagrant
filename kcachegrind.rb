@@ -16,7 +16,7 @@ class KcachegrindCommand < Vagrant::Command::Base
         end
         
         with_target_vms(argv) do |vm|
-            puts vm.name
+            puts "kcachegrind is starting, this might take a moment"
         
             ssh_info  = vm.ssh.info
 
