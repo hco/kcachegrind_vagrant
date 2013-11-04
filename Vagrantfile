@@ -1,7 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-require 'kcachegrind'
 Vagrant::Config.run do |config|
   config.vm.box = "quantal64-roderik"
 
