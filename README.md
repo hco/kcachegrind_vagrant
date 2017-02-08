@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This is not working anymore and I am not maintaining it anymore.
+
 # kcachegrind vagrant vm
 This is a little helper if you need to access kcachegrind on mac or windows (not tested, but should work out of the box).
 It will create a virtual machine using vagrant. 
